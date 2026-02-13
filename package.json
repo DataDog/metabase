@@ -129,7 +129,7 @@
     "typescript": "^5.4.5",
     "underscore": "~1.13.3",
     "use-debounce": "^10.0.0",
-    "yup": "^0.32.11"
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.23.0",
