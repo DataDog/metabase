@@ -150,7 +150,7 @@
     "@rspack/cli": "^1.1.6",
     "@rspack/core": "^1.1.6",
     "@rspack/plugin-react-refresh": "^1.0.1",
-    "@sinonjs/fake-timers": "^9.1.2",
+    "@sinonjs/fake-timers": "^15.3.2",
     "@storybook/addon-a11y": "^6.5.16",
     "@storybook/addon-actions": "6.5.16",
     "@storybook/addon-essentials": "6.5.16",
@@ -323,27 +323,6 @@
     "yaml-lint": "~1.6.0",
     "yarn-deduplicate": "^6.0.2"
   },
-  "resolutions": {
-    "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
-    "ansi-regex": "5.0.1",
-    "cookie": "^0.7.0",
-    "cross-spawn": "^7.0.5",
-    "d3-color": "^3.1.0",
-    "elliptic": "^6.6.0",
-    "debug": "^4.3.4",
-    "follow-redirects": "^1.15.5",
-    "jsdom": "^22.1.0",
-    "json5": "2.2.2",
-    "nth-check": "2.0.1",
-    "@types/react": "^18.2.42",
-    "@types/react-dom": "^18.2.17",
-    "set-value": "4.0.1",
-    "source-map-js": "1.2.0",
-    "unset-value": "2.0.1",
-    "webpack-dev-middleware": "^5.3.4",
-    "nanoid": "^3.3.8",
-    "path-to-regexp": "^0.1.12"
-  },
   "scripts": {
     "build": "yarn build:cljs && yarn build:js",
     "build-embedding-sdk": "yarn && yarn build-release:cljs && yarn embedding-sdk:generate-package && yarn embedding-sdk:generate-nextjs-compat && yarn build-release:sdk && yarn build-embedding-sdk-cli && yarn embedding-sdk:fixup-types-imports",
@@ -477,5 +456,22 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "resolutions": {
+    "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
+    "ansi-regex": "5.0.1",
+    "cookie": "^0.7.0",
+    "cross-spawn": "^7.0.5",
+    "debug": "^4.3.4",
+    "jsdom": "^22.1.0",
+    "json5": "2.2.2",
+    "nth-check": "2.0.1",
+    "@types/react": "^18.2.42",
+    "set-value": "4.0.1",
+    "source-map-js": "1.2.0",
+    "unset-value": "2.0.1",
+    "webpack-dev-middleware": "^5.3.4",
+    "nanoid": "^3.3.8",
+    "path-to-regexp": "^0.1.12"
+  }
 }
