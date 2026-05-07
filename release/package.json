@@ -31,8 +31,8 @@
     "ts-pattern": "^5.2.0",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
-    "underscore": "^1.13.6",
-    "zx": "^8.1.0"
+    "underscore": "^1.13.8",
+    "zx": "^8.8.5"
   },
   "devDependencies": {
     "@babel/core": "^7.22.19",
