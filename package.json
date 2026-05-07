@@ -52,7 +52,7 @@
     "d3-scale": "^4.0.2",
     "dayjs": "^1.10.4",
     "detect-package-manager": "^3.0.2",
-    "diff": "^3.2.0",
+    "diff": "^3.5.1",
     "echarts": "^5.5.1-rc.1",
     "fast-text-encoding": "^1.0.6",
     "formik": "^2.4.5",
@@ -127,7 +127,7 @@
     "ts-pattern": "^5.1.2",
     "ttag": "1.7.21",
     "typescript": "^5.4.5",
-    "underscore": "~1.13.3",
+    "underscore": "~1.13.8",
     "use-debounce": "^10.0.0",
     "yup": "^0.32.11"
   },
@@ -288,7 +288,7 @@
     "open-cli": "^8.0.0",
     "patch-package": "^8.0.0",
     "pg": "^8.8.0",
-    "postcss": "^8.4.19",
+    "postcss": "^8.5.14",
     "postcss-discard-comments": "^7.0.1",
     "postcss-import": "15.1.0",
     "postcss-loader": "7.0.2",
@@ -313,36 +313,15 @@
     "swc-loader": "^0.2.6",
     "terser-webpack-plugin": "^5.3.9",
     "tsx": "^4.19.2",
-    "webpack": "^5.94.0",
+    "webpack": "^5.106.2",
     "webpack-bundle-analyzer": "^4.10.1",
     "webpack-cli": "^5.1.1",
-    "webpack-dev-server": "^5.0.4",
+    "webpack-dev-server": "^5.2.3",
     "webpack-notifier": "1.15.0",
     "webpack-stats-plugin": "^1.1.3",
     "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.2/xlsx-0.20.2.tgz",
     "yaml-lint": "~1.6.0",
     "yarn-deduplicate": "^6.0.2"
-  },
-  "resolutions": {
-    "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
-    "ansi-regex": "5.0.1",
-    "cookie": "^0.7.0",
-    "cross-spawn": "^7.0.5",
-    "d3-color": "^3.1.0",
-    "elliptic": "^6.6.0",
-    "debug": "^4.3.4",
-    "follow-redirects": "^1.15.5",
-    "jsdom": "^22.1.0",
-    "json5": "2.2.2",
-    "nth-check": "2.0.1",
-    "@types/react": "^18.2.42",
-    "@types/react-dom": "^18.2.17",
-    "set-value": "4.0.1",
-    "source-map-js": "1.2.0",
-    "unset-value": "2.0.1",
-    "webpack-dev-middleware": "^5.3.4",
-    "nanoid": "^3.3.8",
-    "path-to-regexp": "^0.1.12"
   },
   "scripts": {
     "build": "yarn build:cljs && yarn build:js",
@@ -477,5 +456,21 @@
   },
   "browserslist": [
     "defaults"
-  ]
+  ],
+  "resolutions": {
+    "ansi-html": "https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
+    "ansi-regex": "5.0.1",
+    "cross-spawn": "^7.0.5",
+    "debug": "^4.3.4",
+    "jsdom": "^22.1.0",
+    "json5": "2.2.2",
+    "nth-check": "2.0.1",
+    "@types/react": "^18.2.42",
+    "set-value": "4.0.1",
+    "source-map-js": "1.2.0",
+    "unset-value": "2.0.1",
+    "webpack-dev-middleware": "^5.3.4",
+    "nanoid": "^3.3.8",
+    "path-to-regexp": "^0.1.12"
+  }
 }
